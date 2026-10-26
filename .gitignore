@@ -1,0 +1,22 @@
+# Captured data and downloaded OpenCellID exports, never commit them
+*.csv
+*.html
+*.db
+*.kml
+*.gpx
+*.log
+# API tokens
+.ocid_token
+.env
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Always
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+~$*
